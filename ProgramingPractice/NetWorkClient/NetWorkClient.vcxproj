@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3C6DAD7E-ABF0-40BF-9E88-8DBC43257567}</ProjectGuid>
+    <ProjectGuid>{0B9A7491-4A6A-4B6F-83E0-8C3677F4D71D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>MultiTreadsPractice</RootNamespace>
+    <RootNamespace>NetWorkClient</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -89,6 +89,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -146,7 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ThreadMain.cpp" />
+    <ClCompile Include="SingleThreadClient.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SolutionDefineMacro.h" />

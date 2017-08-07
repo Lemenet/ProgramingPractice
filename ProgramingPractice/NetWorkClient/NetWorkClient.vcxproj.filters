@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ThreadMain.cpp">
+    <ClCompile Include="SingleThreadClient.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -9,6 +9,12 @@
 //			
 /************************************************************************/
 
+#include "../SolutionDefineMacro.h"
+
+#ifdef U_SingleThreadNetWork
+
+
+
 #include <WinSock2.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -86,3 +92,5 @@ int main(int argc, char** argv)
 
 	return 0;
 }
+
+#endif // U_SingleThreadNetWork
