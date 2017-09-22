@@ -1,6 +1,6 @@
 #include "UsingDefine.h"
 
-#ifdef _ULIBRARY_
+#ifdef _U_LIBRARY_
 
 #include <iostream>
 #include "../Library/MathLibrary.h"

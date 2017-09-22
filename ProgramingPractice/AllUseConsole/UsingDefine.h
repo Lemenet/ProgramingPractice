@@ -1,5 +1,9 @@
 #pragma once
 
-//#define _ULIBRARY_
+//#define _U_LIBRARY_
 
-#define _ULUATEST_
+//#define _U_LUAPLUS_TEST_
+
+//#define _U_DLL_
+
+#define _U_RAW_LUA_TEST_
